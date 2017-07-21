@@ -16,7 +16,7 @@ tomcat:tomcat7.0
 Description	Resource	Path	Location	Type
 Archive for required library: '/Users/Allen/.m2/repository/org/mybatis/mybatis/3.2.4/mybatis-3.2.4.jar' in project 'basic-core' cannot be read or is not a valid ZIP file	basic-core		Build path	Build Path Problem
 
-修改eclipse的maven配置，指定仓库地址即可。
+修改eclipse的maven配置，将user setting配置成指定的地址，例如：/Users/Allen/develop/maven/maven-3.5.0/conf/settings.xml
 
 2.2-
 Description	Resource	Path	Location	Type
