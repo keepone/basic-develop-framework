@@ -8,5 +8,20 @@
 java:java version "1.8.0" Java(TM) SE Runtime Environment (build 1.8.0-b132) Java HotSpot(TM) 64-Bit Server VM (build 25.0-b70, mixed mode)
 tomcat:tomcat7.0
 
-注意事项： 1.maven引用包的升级引起各种冲突
+注意事项： 
+1.maven引用包的升级引起各种冲突
+
+2常见bug
+2.1-通过eclipse导入时，可能会报错：
+Description	Resource	Path	Location	Type
+Archive for required library: '/Users/Allen/.m2/repository/org/mybatis/mybatis/3.2.4/mybatis-3.2.4.jar' in project 'basic-core' cannot be read or is not a valid ZIP file	basic-core		Build path	Build Path Problem
+
+修改eclipse的maven配置，指定仓库地址即可。
+
+2.2-
+Description	Resource	Path	Location	Type
+JavaServer Faces 2.2 can not be installed : One or more constraints have not been satisfied.	basic-web		line 1	Maven Java EE Configuration Problem
+
+直接删除忽视即可。
+
 --allen 2017-7.21
